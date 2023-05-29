@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 60px 0 60px;
+    margin: auto;
+    
+}
+
+
+/* -----header----- */
+#head{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+#head button {
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    background: white;
+}
+#head button:hover {
+    background: rgba(183, 164, 164, 0.5);
+}
+
+
+/* -----container------- */
+#container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#container h2 {
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+/* -----todo----- */
+#Todo {
+    width: 30%;
+}
+#Todo h2 {
+    width: 100%;
+    background-color: rgb(48, 135, 221);
+}
+
+#Doing {
+    width: 30%;
+   
+}
+#Doing h2 {
+    width: 100%;
+    background-color: rgb(213, 224, 89);
+   
+}
+#Finished {
+    width: 30%;
+}
+#Finished h2 {
+    width: 100%;
+    background-color: rgb(82, 227, 116);
+}
+
+
+/* -----Box----- */
+.box {
+    margin-top: 20px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(16, 15, 15);
+    border-radius: 5px;
+}
+.box .newFlash {
+    width: 85%;
+    word-wrap: break-word;
+}
+.box .top {
+    font-size: 12px;
+    color: rgb(88, 181, 181);
+    text-decoration: underline;
+    padding: 8px 0;
+}
+.box .sub  {
+    padding: 8px 0;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.box h3 {
+    font-size: 15px;
+    padding: 8px 0;
+}
+.box .del{
+    width: 15%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+.box .del button {
+    border: none;
+    background: white;
+    padding: 3px;
+    cursor: pointer;
+}
+
+/* -------lop phu------ */
+
+#edit-todo {
+    margin-top: 15px;
+    padding: 10px 25px;
+    width: 350px;
+    border: 2px solid  red;
+    border-radius: 4px;
+}
+#edit-todo .edit{
+    margin-bottom: 15px;
+    position: relative;
+}
+#edit-todo .edit button {
+    border: none;
+    width: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+#edit-todo input {
+    padding: 6px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+#edit-todo .sub-tittle{
+    height: 50px;
+}
+#edit-todo .choice  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#edit-todo .choice span {
+    width: 100%;
+}
+#edit-todo button {
+    width: 100%;
+    cursor: pointer;
+    padding: 6px;
+}
+

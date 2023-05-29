@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="head">
+        <h1 >Flashcard</h1>
+        <button id="btn">New task</button>
+    </div>
+    <div id="container">
+        <div id="Todo">
+            <h2>Todo</h2>
+            <div class="box">
+                <div class="newFlash">
+                    <p class="top">test</p>
+                    <h3>tittlellllllllllllllllllllllllllllllllll</h3>
+                    <p class="sub">subtittle</p>
+                </div>
+                <div class="del">
+                    <button><i class="fa-solid fa-pencil"></i></button>
+                    <button><i class="fa-solid fa-trash-can"></i></button>
+    
+                </div>
+            </div>
+            
+        </div>
+        <div id="Doing">
+            <h2>Doing</h2>
+        </div>
+        <div id="Finished">
+            <h2>Finished</h2>
+        </div>
+    </div>
+    <div id="edit-todo">
+        <div class="edit">
+            <span>Edit todo</span>
+            <button><i class="fa-sharp fa-solid fa-xmark"></i></button>
+        </div>
+        <input type="text" placeholder="head">
+        <input type="text" placeholder="title">
+        <input type="text" placeholder="subtittle" class="subtittile">
+        <div class="choice">
+            <input type="radio" name="todolist" value="Todo"><span>To do</span>
+            <input type="radio" name="todolist" value="Doing">Doing
+            <input type="radio" name="todolist" value="Finished">Finished
+        </div>
+        <button class="submit">Submit</button>
+    </div>
+
+</body>
+<script src="./main.js"></script>
+
+</html>
